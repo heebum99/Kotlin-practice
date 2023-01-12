@@ -1,6 +1,7 @@
 package com.example.kotlinpractice
 
-//object
+//Object
+
 object CarFactory { //객체는 앱을 실행 도중 딱 한번만 실행됨 => Singleton Pattern
     val cars = mutableListOf<Car>()
     fun makeCar(horsePower: Int) : Car {
